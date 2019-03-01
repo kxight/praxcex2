@@ -33,12 +33,15 @@ int main(){
        j++;
         
     }
-	
+
     sort(score,20);
     
 	ofstream dest("rank.txt");
 	for(int i = 0; i < 20;i++){
-		dest << score[i] << "\n";
+		dest << score[i] << " = " ;
+		if(score[i]==score[i+1])
+		dest << i<< "\n";
+		else dest << i+1 << "\n";
 	}
 	dest.close();
 	
