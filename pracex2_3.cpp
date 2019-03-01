@@ -33,9 +33,8 @@ void randomAlphabet(){
         for(int j=0;j<8;j++){
             int x =rand() % 26;
             alphabet[i][j] = alpha[x];
-            }
-        
+			cout << "hkd";
+            }     
     }
-    
 
 }

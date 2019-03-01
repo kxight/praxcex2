@@ -15,6 +15,7 @@ int main(){
     cout << av(1,-2) << "\n";
     cout << av(15,100) << "\n";
     cout << av(123,5432) << "\n";
+    cout << "af";
 }
 
 //Write function definition of av() here.
@@ -22,4 +23,4 @@ double av(double x,double y){
     if(x<=0 || y<=0)return 0;
     else if((x>y&&x/y<=100)||(y>x&&y/x<=100)) return sqrt(x*y);
     else return av(x,(x+y)/2)+av(y,(x+y)/2);
-}
+} 
