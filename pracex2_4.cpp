@@ -15,7 +15,6 @@ int main(){
     cout << av(1,-2) << "\n";
     cout << av(15,100) << "\n";
     cout << av(123,5432) << "\n";
-    cout << "af";
 }
 
 //Write function definition of av() here.

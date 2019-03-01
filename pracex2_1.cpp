@@ -21,7 +21,6 @@ int main(){
 	char b[] = "CPECMU";
 	cout << countIf(b,6,'C') << "\n";
 	cout << countIf(b,6,'E') << "\n";
-	cout << "hskd";
 	
 	return 0;
 }

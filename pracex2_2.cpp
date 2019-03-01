@@ -33,7 +33,7 @@ int main(){
        j++;
         
     }
-    
+	
     sort(score,20);
     
 	ofstream dest("rank.txt");
